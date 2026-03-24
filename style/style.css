@@ -331,6 +331,11 @@ body {
 	}
 }
 /* ------------------- SERVICES -------------------------	 */
+button {
+	box-shadow: none;
+	border: none; /* если не нужен стандартный border */
+	outline: none; /* уберет фокус-обводку */
+}
 .services {
 	position: relative;
 	padding-top: 50px;
