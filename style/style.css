@@ -331,11 +331,19 @@ body {
 	}
 }
 /* ------------------- SERVICES -------------------------	 */
-button {
-	box-shadow: none;
-	border: none; /* если не нужен стандартный border */
-	outline: none; /* уберет фокус-обводку */
+.hero__button {
+  border: none;
+  outline: none;
 }
+
+.hero__button:focus,
+.hero__button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
 .services {
 	position: relative;
 	padding-top: 50px;
