@@ -317,8 +317,13 @@
 							<p>Оставьте заявку и мы свяжемся с Вами</p>
 						</div>
 						<form action="/api/submit" method="POST">
-							<input autocomplete="off" type="text" name="name" data-value="Имя" placeholder="Имя" class="input" required>
-  							<input autocomplete="off" type="tel" name="fone" data-value="Номер телефона" placeholder="Номер телефона" class="input" required>
+							<input autocomplete="off" type="text" name="name"
+       placeholder="Имя" class="input"
+       pattern="[A-Za-zА-Яа-яЁё\s]+" required>
+
+<input autocomplete="off" type="tel" name="fone"
+       placeholder="Номер телефона" class="input"
+       pattern="[0-9]+" required>
   							<button type="submit" class="btn form__button">Отправить</button>
 						</form>
 					</div>
