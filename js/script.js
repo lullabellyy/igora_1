@@ -206,7 +206,6 @@ function forms() {
 	  });
 	}
 
-  <button type="submit" class="btn form__button">Отправить</button>
 </form>
 	// Вызов функции внутри forms()
 	dataValue();
