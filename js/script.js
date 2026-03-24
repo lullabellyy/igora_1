@@ -205,30 +205,6 @@ function forms() {
 		 });
 	  });
 	}
-<form action="/api/submit" method="POST">
-  <input
-    autocomplete="off"
-    type="text"
-    name="name"
-    data-value="Имя"
-    placeholder="Имя"
-    class="input"
-    required
-    pattern="[A-Za-zА-Яа-яЁё\s\-]+"
-    title="Введите только буквы"
-  >
-
-  <input
-    autocomplete="off"
-    type="tel"
-    name="fone"
-    data-value="Номер телефона"
-    placeholder="Номер телефона"
-    class="input"
-    required
-    pattern="[0-9+\-\s()]+"
-    title="Введите только цифры телефона"
-  >
 
   <button type="submit" class="btn form__button">Отправить</button>
 </form>
