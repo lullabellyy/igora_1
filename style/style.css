@@ -336,13 +336,6 @@ body {
   outline: none;
 }
 
-.hero__button:focus,
-.hero__button:active {
-  outline: none;
-  box-shadow: none;
-}
-
-
 
 .services {
 	position: relative;
